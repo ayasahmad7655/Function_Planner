@@ -1,0 +1,65 @@
+{
+  "name": "task-planner",
+  "displayName": "TaskPlanningFeature",
+  "description": "Just Extension For Task Planning",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.96.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onCommand:task-planner.helloWorld"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "viewsContainers": {
+      "activitybar": [
+        {
+          "id": "taskPlanner",
+          "title": "Task Planner",
+          "icon": "resources/temp.svg"
+        }
+      ]
+    },
+    "views": {
+      "taskPlanner": [
+        {
+          "id": "taskPlannerView",
+          "name": "Task Planner",
+          "icon": "resources/temp.svg"
+        }
+      ]
+    },
+    "commands": [
+      {
+        "command": "task-planner.helloWorld",
+        "title": "Hello World"
+      },
+      {
+        "command": "task-planner.processFiles",
+        "title": "Process Files"
+      }
+    ]
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/mocha": "^10.0.10",
+    "@types/node": "20.x",
+    "@types/vscode": "^1.96.0",
+    "@vscode/test-cli": "^0.0.10",
+    "@vscode/test-electron": "^2.4.1",
+    "eslint": "^9.19.0"
+  },
+  "dependencies": {
+    "babel": "^5.8.38",
+    "jsdom": "^26.0.0",
+    "playwright": "^1.50.1",
+    "prettier": "^3.4.2"
+  }
+}
