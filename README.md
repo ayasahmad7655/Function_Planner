@@ -16,7 +16,7 @@ My extension addresses this limitation by allowing users to:
 - **Enhance daily workflow** by making Traycer AI more practical for real-world development.
 
 ## 📹 Demo & Code Repository
-🔗 **Demo Video:** [https://drive.google.com/file/d/1dnHSTPCR7NJAhUSjw0TtaHWhmcOI7oC-/view?usp=drive_link](#)  
+🔗 **Demo Video:** [[https://drive.google.com/file/d/1dnHSTPCR7NJAhUSjw0TtaHWhmcOI7oC-/view?usp=drive_link](https://drive.google.com/file/d/1dnHSTPCR7NJAhUSjw0TtaHWhmcOI7oC-/view?usp=drive_link)]()  
 
 
 ## Installation
